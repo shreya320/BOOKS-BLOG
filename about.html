@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <style>
+        /* Styling for the body */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            margin: 1rem;
+            text-align: center;
+            background-color: #ecc9dc;
+            background-image: url(real.jpg);
+
+        }
+
+        /* Styling for the home icon */
+        .home-icon {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            font-size: 1.5rem;
+            color: #69224b;
+        }
+
+        /* Styling for the heading */
+        .head {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+            color: #4e3d42;
+            position: relative;
+            font-family: "Raleway", sans-serif;
+        }
+
+        /* Styling for the underline below the heading */
+        .head::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 10rem;
+            height: 0.2rem;
+            background-color: #4e3d42;
+        }
+
+        /* Styling for the heading container */
+        .heading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 2rem;
+            justify-content: center;
+        }
+
+        /* Styling for the container holding the image and text */
+        .image-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2rem;
+            gap: 3rem; /* Remove the gap between the image and text */
+        }
+
+        img {
+            max-height: 37%;
+            max-width: 37%;
+            height: auto;
+            display: block;
+            justify-content: space-around;
+            opacity: 0.5;
+            border-radius: 10px;
+        }
+
+        .about {
+            max-width: 50%;
+            text-align: left;
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 1.2rem;
+            line-height: 1.4;
+            position: relative;
+            margin: 0; /* Remove any margin */
+        }
+
+        /* Media query for screens with a maximum width of 600px (typical of mobile devices) */
+        @media only screen and (max-width: 600px) {
+            /* Change layout to stack image on top of text */
+            .image-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            /* Adjust image margin */
+            img {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+
+            /* Adjust about text width and alignment */
+            .about {
+                max-width: 100%;
+                margin-left: 0;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Home Icon -->
+    <a href="index.html" class="home-icon"><i class="fas fa-home"></i></a>
+    <!-- Heading Section -->
+    <div class="heading">
+        <!-- Heading -->
+        <div class="head">About</div>
+    </div>
+    <!-- Image and Text Section -->
+    <div class="image-container">
+        <!-- Image -->
+        <img src="image1.jpg" alt="About Image" />
+        <!-- About Text -->
+        <div class="about">
+            Hey there, I'm Shreya, and from a young age, I've been captivated by the
+            magic of books. There's something truly enchanting about immersing
+            yourself in a world entirely different from your own, where you can
+            explore new perspectives and embark on thrilling adventures. Now, at 20,
+            my passion for books burns as brightly as ever.<br /><br />
+
+            Having delved into countless stories, I've found myself becoming
+            somewhat of a book critic. With each read, I uncover new depths and
+            insights, allowing me to appreciate the art of storytelling even more.
+            It's this passion and expertise that led me to create Reader's
+            Heaven.<br /><br />
+            
+            At Reader's Heaven, I aim to unite fellow book lovers and introduce them
+            to a treasure trove of captivating stories waiting to be discovered.
+            Here, you'll find my personal recommendations, honest reviews, and
+            insightful commentary on all things literary.<br /><br />
+            
+            So, welcome to Reader's Heaven, where every page holds the promise of a
+            new adventure. I invite you to join me on this journey through the
+            written word, and I hope my insights enrich your reading experience.
+        </div>
+    </div>
+</body>
+</html>

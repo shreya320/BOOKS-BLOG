@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links to Google Fonts and Font Awesome for styling -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <!-- Title of the blog post -->
+    <title>Blog 3</title>
+    <!-- Internal CSS styling -->
+    <style>
+        /* Styling for the body */
+        body {
+            padding: 20px;
+            margin: 1rem;
+            background-image: url(real.jpg);
+            background-size: cover;
+            background-position: center;
+            font-family: "Josefin Sans", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            position: relative;
+            flex-direction: column;
+        }
+
+        /* Styling for the heading */
+        .heading {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+            font-family: "Raleway", sans-serif;
+        }
+
+        /* Styling for the heading link */
+        .heading a {
+            text-decoration: none;
+            color: #4e3d42;
+        }
+
+        /* Styling for the heading link on hover */
+        .heading:hover {
+            padding: 0.1rem;
+            font-size: 37px;
+        }
+
+        /* Styling for the date */
+        .date {
+            font-size: 16px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #4e3d42;
+            font-family: "Raleway", sans-serif;
+        }
+
+        /* Styling for the main content section */
+        .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        /* Styling for the text content */
+        .text {
+            flex: 1;
+            font-size: 17px;
+            line-height: 1.6;
+            margin-left: 20px;
+        }
+
+        /* Styling for images */
+        img {
+            max-width: 30%;
+            height: auto;
+            border-radius: 10px;
+            opacity: 0.7;
+        }
+
+        /* Styling for the home icon */
+        .home-icon {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            font-size: 1.5rem;
+            color: #69224b;
+        }
+
+        /* Styling for the comments section */
+        .comments-section {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            background: #ecc9dc;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Styling for the comment form */
+        .comment-form {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        /* Styling for the comment form input fields */
+        .comment-form input,
+        .comment-form textarea {
+            resize: none;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 16px;
+            opacity: 0.5;
+        }
+
+        /* Styling for the comment form button */
+        .comment-form button {
+            align-self: flex-end;
+            padding: 10px 20px;
+            border: none;
+            background: #4e3d42;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: "Josefin Sans", sans-serif;
+        }
+
+        /* Styling for individual comments */
+        .comment {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        /* Styling for the last comment to remove the bottom border */
+        .comment:last-child {
+            border-bottom: none;
+        }
+
+        /* Styling for the comment header */
+        .comment-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        /* Styling for the comment circle avatar */
+        .comment-circle {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #4e3d42;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 10px;
+            font-family: "Raleway", sans-serif;
+        }
+
+        /* Styling for the commenter's name */
+        .comment-name {
+            font-weight: bold;
+            font-family: "Raleway", sans-serif;
+            color: #4e3d42;
+        }
+
+        /* Styling for the comment text */
+        .comment-text {
+            font-family: "Josefin Sans", sans-serif;
+            color: #4e3d42;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- Blog post heading with a link to Goodreads -->
+        <div class="heading"><a href="https://www.goodreads.com/search?utf8=%E2%9C%93&q=atomic+habits&search_type=books">ATOMIC HABITS</a></div>
+        <!-- Home icon link -->
+        <a href="index.html" class="home-icon"><i class="fas fa-home"></i></a>
+        <!-- Date of the blog post -->
+        <div class="date">23.06.2024</div>
+        <div class="content">
+            <!-- Image related to the blog post -->
+            <img src="image5.webp" alt="atomic habits">
+            <!-- Text content of the blog post -->
+            <div class="text">No matter your goals, Atomic Habits offers a proven framework for improving—every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.<br><br>
+
+                If you're having trouble changing your habits, the problem isn't you. The problem is your system. Bad habits repeat themselves again and again not because you don't want to change, but because you have the wrong system for change. You do not rise to the level of your goals. You fall to the level of your systems. Here, you'll get a proven system that can take you to new heights.<br><br>
+                
+                Clear is known for his ability to distill complex topics into simple behaviors that can be easily applied to daily life and work. Here, he draws on the most proven ideas from biology, psychology, and neuroscience to create an easy-to-understand guide for making good habits inevitable and bad habits impossible. Along the way, readers will be inspired and entertained with true stories from Olympic gold medalists, award-winning artists, business leaders, life-saving physicians, and star comedians who have used the science of small habits to master their craft and vault to the top of their field.<br><br>
+                
+                Atomic Habits will reshape the way you think about progress and success, and give you the tools and strategies you need to transform your habits--whether you are a team looking to win a championship, an organization hoping to redefine an industry, or simply an individual who wishes to quit smoking, lose weight, reduce stress, or achieve any other goal.
+            </div>
+        </div>
+        <!-- Comments section -->
+        <div class="comments-section">
+            <!-- Comment form -->
+            <div class="comment-form">
+                <!-- Input field for name -->
+                <input type="text" id="name-input" placeholder="Your name">
+                <!-- Textarea for writing a comment -->
+                <textarea id="comment-input" rows="3" placeholder="Write your comment here..."></textarea>
+                <!-- Button to post the comment -->
+                <button onclick="postComment()">Post Comment</button>
+            </div>
+            <!-- Container to display comments -->
+            <div id="comments-container"></div>
+        </div>
+    </div>
+
+    <!-- JavaScript for posting comments -->
+    <script>
+        function postComment() {
+            const nameInput = document.getElementById('name-input');
+            const commentInput = document.getElementById('comment-input');
+            const commentsContainer = document.getElementById('comments-container');
+            
+            // Check if both name and comment are not empty
+            if (nameInput.value.trim() !== "" && commentInput.value.trim() !== "") {
+                // Create a new comment div
+                const commentDiv = document.createElement('div');
+                commentDiv.classList.add('comment');
+                
+                // Create a comment header div
+                const commentHeaderDiv = document.createElement('div');
+                commentHeaderDiv.classList.add('comment                -header');
+
+                // Create a circle avatar for the commenter
+                const circleDiv = document.createElement('div');
+                circleDiv.classList.add('comment-circle');
+                circleDiv.textContent = nameInput.value.trim().charAt(0).toUpperCase();
+
+                // Create a div for the commenter's name
+                const nameDiv = document.createElement('div');
+                nameDiv.classList.add('comment-name');
+                nameDiv.textContent = nameInput.value.trim();
+
+                // Append the circle avatar and name to the comment header
+                commentHeaderDiv.appendChild(circleDiv);
+                commentHeaderDiv.appendChild(nameDiv);
+
+                // Create a div for the comment text
+                const textDiv = document.createElement('div');
+                textDiv.classList.add('comment-text');
+                textDiv.textContent = commentInput.value.trim();
+
+                // Append the comment header and text to the comment div
+                commentDiv.appendChild(commentHeaderDiv);
+                commentDiv.appendChild(textDiv);
+
+                // Append the comment div to the comments container
+                commentsContainer.appendChild(commentDiv);
+
+                // Clear the input fields
+                nameInput.value = "";
+                commentInput.value = "";
+            }
+        }
+    </script>
+</body>
+</html>
